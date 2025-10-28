@@ -1,0 +1,120 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>Text To Word</title></head><body><p>/* Basic Reset */</p>
+<p>* {</p>
+<p>&nbsp; &nbsp; box-sizing: border-box;</p>
+<p>&nbsp; &nbsp; margin: 0;</p>
+<p>&nbsp; &nbsp; padding: 0;</p>
+<p>&nbsp; &nbsp; font-family: Arial, sans-serif;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>body {</p>
+<p>&nbsp; &nbsp; background-color: #f4f4f9;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>/* Header */</p>
+<p>header {</p>
+<p>&nbsp; &nbsp; background-color: #007bff;</p>
+<p>&nbsp; &nbsp; color: white;</p>
+<p>&nbsp; &nbsp; padding: 15px 0;</p>
+<p>&nbsp; &nbsp; text-align: center;</p>
+<p>&nbsp; &nbsp; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>/* Main Container and Layout */</p>
+<p>.container {</p>
+<p>&nbsp; &nbsp; display: flex;</p>
+<p>&nbsp; &nbsp; max-width: 1200px;</p>
+<p>&nbsp; &nbsp; margin: 20px auto;</p>
+<p>&nbsp; &nbsp; padding: 0 15px;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>/* Filter Sidebar */</p>
+<p>.sidebar {</p>
+<p>&nbsp; &nbsp; width: 250px;</p>
+<p>&nbsp; &nbsp; padding: 20px;</p>
+<p>&nbsp; &nbsp; background-color: white;</p>
+<p>&nbsp; &nbsp; border-radius: 8px;</p>
+<p>&nbsp; &nbsp; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);</p>
+<p>&nbsp; &nbsp; height: fit-content; /* Make it stop at the bottom of its content */</p>
+<p>&nbsp; &nbsp; position: sticky; /* Sticky filter bar */</p>
+<p>&nbsp; &nbsp; top: 20px;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>.filter-group {</p>
+<p>&nbsp; &nbsp; margin-bottom: 20px;</p>
+<p>&nbsp; &nbsp; padding-bottom: 10px;</p>
+<p>&nbsp; &nbsp; border-bottom: 1px solid #eee;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>.filter-group h3 {</p>
+<p>&nbsp; &nbsp; margin-bottom: 10px;</p>
+<p>&nbsp; &nbsp; color: #333;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>.sidebar label {</p>
+<p>&nbsp; &nbsp; display: block;</p>
+<p>&nbsp; &nbsp; margin-bottom: 5px;</p>
+<p>&nbsp; &nbsp; cursor: pointer;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>.sidebar button {</p>
+<p>&nbsp; &nbsp; width: 100%;</p>
+<p>&nbsp; &nbsp; padding: 10px;</p>
+<p>&nbsp; &nbsp; background-color: #dc3545; /* Red for 'clear' */</p>
+<p>&nbsp; &nbsp; color: white;</p>
+<p>&nbsp; &nbsp; border: none;</p>
+<p>&nbsp; &nbsp; border-radius: 5px;</p>
+<p>&nbsp; &nbsp; cursor: pointer;</p>
+<p>&nbsp; &nbsp; margin-top: 10px;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>.sidebar button:hover {</p>
+<p>&nbsp; &nbsp; background-color: #c82333;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>/* Product Grid */</p>
+<p>.product-grid {</p>
+<p>&nbsp; &nbsp; flex-grow: 1;</p>
+<p>&nbsp; &nbsp; display: grid;</p>
+<p>&nbsp; &nbsp; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));</p>
+<p>&nbsp; &nbsp; gap: 20px;</p>
+<p>&nbsp; &nbsp; margin-left: 20px;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>/* Product Card */</p>
+<p>.product-card {</p>
+<p>&nbsp; &nbsp; background-color: white;</p>
+<p>&nbsp; &nbsp; padding: 15px;</p>
+<p>&nbsp; &nbsp; border-radius: 8px;</p>
+<p>&nbsp; &nbsp; box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);</p>
+<p>&nbsp; &nbsp; border: 1px solid #ddd;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>.product-card h3 {</p>
+<p>&nbsp; &nbsp; font-size: 1.2em;</p>
+<p>&nbsp; &nbsp; margin: 10px 0;</p>
+<p>&nbsp; &nbsp; color: #007bff;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>.product-card p {</p>
+<p>&nbsp; &nbsp; margin-bottom: 5px;</p>
+<p>&nbsp; &nbsp; color: #555;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>.product-card .price {</p>
+<p>&nbsp; &nbsp; font-weight: bold;</p>
+<p>&nbsp; &nbsp; color: #28a745; /* Green for price */</p>
+<p>&nbsp; &nbsp; font-size: 1.1em;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>.out-of-stock {</p>
+<p>&nbsp; &nbsp; opacity: 0.6;</p>
+<p>&nbsp; &nbsp; border-left: 5px solid #ffc107;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>#loading-message {</p>
+<p>&nbsp; &nbsp; grid-column: 1 / -1; /* Center message across grid */</p>
+<p>&nbsp; &nbsp; text-align: center;</p>
+<p>&nbsp; &nbsp; padding: 50px;</p>
+<p>&nbsp; &nbsp; font-size: 1.2em;</p>
+<p>&nbsp; &nbsp; color: #888;</p>
+<p>}</p></body></html>
